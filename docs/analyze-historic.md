@@ -12,7 +12,7 @@ To coincide with the publication of our data, Grillo released a Python package c
 
 In this post, I will show how the openeew package makes it easy to get started working with our accelerometer data in Python (version 3.5 or later) by analyzing a magnitude 7.2 earthquake that occurred in Mexico on 16 February 2018.
 
-This tutorial is based on a demo I gave in our live webinar [Introducing OpenEEW](https://youtu.be/Yj8y5U7cthY). The code is available as a Jupyer notebook from our github [repo](https://github.com/grillo/openeew-python/blob/master/notebooks/exploring_openeew_data.ipynb).
+This tutorial is based on a demo I gave in our live webinar [Introducing OpenEEW](https://youtu.be/Yj8y5U7cthY). The code is available as a Jupyer notebook from our github [repo](https://github.com/openeew/openeew-python/blob/master/notebooks/exploring_openeew_data.ipynb).
 
 ### Installing requirements
 

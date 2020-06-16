@@ -9,7 +9,7 @@ There are various methods you can use to ingest sensor data and output an EEW al
 ## Node-RED
 Node-RED is a low-code tool for working with IoT data. It natively works with the JSON format which the OpenEEW sensor outputs, making it fast and easy to use. It also provides plugins, called `nodes`, that can take data from an MQTT broker, output to email, write to a database, and much more.
 
-This tool allows you to make `flows` which are visual representations of data being processed. We encourage you to use the [flows we create](https://github.com/grillo/openeew-nodered), and share flows that you have made.
+This tool allows you to make `flows` which are visual representations of data being processed. We encourage you to use the [flows we create](https://github.com/openeew/openeew-nodered), and share flows that you have made.
 
 ![openeew-quakeplayback-flow](/docs/openeew-quakeplayback-flow.png)
 

@@ -12,7 +12,7 @@ The Open Source Guides website has a collection of resources for individuals, co
 - [Building Welcoming Communities](https://opensource.guide/building-community/)
 
 ## Code of Conduct
-OpenEEW has adopted a Code of Conduct that we expect project participants to adher to. Please red [the full text](https://github.com/grillo/openeew/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+OpenEEW has adopted a Code of Conduct that we expect project participants to adher to. Please red [the full text](https://github.com/openeew/openeew/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
 ## Get Involved
 There are many ways to contribute to OpenEEW and many of them do not involve writing code or building hardware. Here's a few ideas to get started:
@@ -22,10 +22,10 @@ There are many ways to contribute to OpenEEW and many of them do not involve wri
 - Help us make the docs better. File an issue if you find anything confusing or can be improved.
 - Take a look at features requested by others in the community and consider opening a pull request if you see something you want to work on.
 
-Contributions are very welcome. If you think you need help planning your contribution, please [join our Slack channel](https://join.slack.com/t/openeew/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ) or [send us an email](mailto:openeew@grillo.io) and let us know you are looking for a bit of help.
+Contributions are very welcome. If you think you need help planning your contribution, please [join our Slack channel](https://join.slack.com/t/openeew/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ) or [send us an email](mailto:hello@openeew.com) and let us know you are looking for a bit of help.
 
 ## Our development process
-OpenEEW uses [GitHub](https://github.com/grillo/openeew) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
+OpenEEW uses [GitHub](https://github.com/openeew/) as its source of truth. The core team will be working directly there. All changes will be public from the beginning.
 
 ### Reporting new issues
 When opening a new issue, always make sure to fill out the issue template. This step is very important! Not doing so may result in your issue not managed in a timely fashion. Don't take this personally if this happens, and feel free to open a new issue once you've gathered all the information required by the template.
@@ -51,7 +51,7 @@ Working on your first Pull Request? You can learn how from this free video serie
 We have a list of beginner friendly issues to help you get your feet wet in the OpenEEW codebase and familiar with our contribution process. This is a great place to get started.
 
 ### Proposing a change
-If you would like to request a new feature or enhancement but are not yet thinking about opening a pull request, you can also file an issue with [feature template](https://github.com/grillo/openeew/issues/new?template=feature.md/).
+If you would like to request a new feature or enhancement but are not yet thinking about opening a pull request, you can also file an issue with [feature template](https://github.com/openeew/openeew/issues/new?template=feature.md/).
 
 If you're only fixing a bug, it's fine to submit a pull request right away but we still recommend to file an issue detailing what you're fixing. This is helpful in case we don't accept that specific fix but want to keep track of the issue.
 

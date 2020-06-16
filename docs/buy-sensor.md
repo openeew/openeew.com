@@ -8,6 +8,6 @@ You wish to buy a sensor that's ready to go, with OpenEEW firmware loaded ?
 
 send us an email to be on the waiting list:
 
-openeew@grillo.io
+hello@openeew.com
 
 Thanks
