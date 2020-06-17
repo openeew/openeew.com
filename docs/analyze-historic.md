@@ -4,7 +4,7 @@ title: Analyze OpenEEW data
 sidebar_label: Analyze OpenEEW data
 ---
 
-There are various methods you can use to read historic OpenEEW data, in order to test new algorithms. Here we provide an example with our [Python ;library](#openeew-data-with-python), and also using our [Node-RED](#openeew-data-with-node-red).
+There are various methods you can use to read historic OpenEEW data, in order to test new algorithms. Here we provide an example with our [Python library](#openeew-data-with-python), and also using [Node-RED](#openeew-data-with-node-red).
 
 ## OpenEEW data with Python
 
