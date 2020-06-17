@@ -23,7 +23,7 @@ module.exports = {
       textColor: "#091E42", // Defaults to `#000`.
     },
     navbar: {
-      title: "",
+      title: "OpenEEW",
       logo: {
         alt: "OpenEEW Logo",
         src: "img/logo.svg",
