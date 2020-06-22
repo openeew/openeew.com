@@ -18,11 +18,10 @@ The sensor features the following components:
 
 Components are mounted in a PCB with the corresponding circuitry. The board operates at 3.3V with a maximum current of 1A. The accelerometer is accessed via SPI interface, specifically ESP32's VSPI. GPS is used with a UART interface.
 
-![PCB design v1.1](/img/PCB_layout.png)_OpenEEW sensor installed low to ground on block wall near corner junction_
+![PCB design v1.1](/img/PCB_layout.png)_OpenEEW sensor PCB design v1.1_
 
 You can find here the schematics, PCB and BOM files [here](https://github.com/openeew/openeew-sensor/kicad).
 
-This design was developed using KiCad v5.0.2 and following Seeed Studio's PCBA rules. For design considerations see [here](http://support.seeedstudio.com/knowledgebase/articles/447362-fusion-pcb-specification) and for Gerber files generation see [here](http://support.seeedstudio.com/knowledgebase/articles/1824574-how-to-generate-gerber-and-drill-files-from-kicad). Seedstudio components from the Open Part Library can be found [here](https://www.seeedstudio.com/opl.html).
 
 ## Firmware
 
