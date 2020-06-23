@@ -6,6 +6,8 @@ sidebar_label: Analyze OpenEEW data
 
 There are various methods you can use to read historic OpenEEW data, in order to test new algorithms. Here we provide an example with our [Python library](#openeew-data-with-python), and also using [Node-RED](#openeew-data-with-node-red).
 
+Here you can find [a package using Julia](https://github.com/tclements/OpenEEW.jl) for working with OpenEEW data, created by [Tim Clements](https://github.com/tclements).
+
 ## OpenEEW data with Python
 
 To coincide with the publication of our data, Grillo released a Python package called openeew, available on [PyPI](https://pypi.org/project/openeew/). This package will form an integral part of OpenEEW over the coming months, with features including detection algorithms and real-time data processing. At this stage, it provides a convenient means to select and download data from AWS.

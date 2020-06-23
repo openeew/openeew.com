@@ -4,6 +4,7 @@ module.exports = {
     "Getting Started": ["read-first", "requirements"],
     Sensors: [
       "deployment",
+      "build-sensor",
       "install-sensor",
       "provision-sensor",
       "update-firmware",
@@ -11,13 +12,10 @@ module.exports = {
     Detection: ["deploy-detection", "multi-station"],
     Monitor: ["create-dashboard"],
     Alarms: ["build-app", "build-alarm", "notify-3rd"],
+    Data: ["historic-data", "analyze-historic"],
     Advanced: [
-      "build-sensor",
       "machine-learning",
       "intensity-prediction",
-      {
-        "Develop your own algorithm": ["historic-data", "analyze-historic"],
-      },
     ],
   },
 };
