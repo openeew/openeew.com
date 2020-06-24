@@ -8,13 +8,15 @@ There are various methods you can use to read historic OpenEEW data, in order to
 
 Here you can find [a package using Julia](https://github.com/tclements/OpenEEW.jl) for working with OpenEEW data, created by [Tim Clements](https://github.com/tclements).
 
+[Laura Ermert](https://github.com/lermert) has created [tools in python and Julia](https://github.com/lermert/grillo_ruido) to facilitate working with OpenEEW data, for example converstion to MSEED format.
+
 ## OpenEEW data with Python
 
-To coincide with the publication of our data, Grillo released a Python package called openeew, available on [PyPI](https://pypi.org/project/openeew/). This package will form an integral part of OpenEEW over the coming months, with features including detection algorithms and real-time data processing. At this stage, it provides a convenient means to select and download data from AWS.
+Presently you can use the [OpenEEW package for Python](https://pypi.org/project/openeew/) to download and analyze OpenEEW accelerometer data.
 
-In this post, I will show how the openeew package makes it easy to get started working with our accelerometer data in Python (version 3.5 or later) by analyzing a magnitude 7.2 earthquake that occurred in Mexico on 16 February 2018.
+This tutorial allows you to get started working with OpenEEW accelerometer data in Python (version 3.5 or later) by analyzing a magnitude 7.2 earthquake that occurred in Mexico on 16 February 2018.
 
-This tutorial is based on a demo I gave in our live webinar [Introducing OpenEEW](https://youtu.be/Yj8y5U7cthY). The code is available as a Jupyer notebook from our github [repo](https://github.com/openeew/openeew-python/blob/master/notebooks/exploring_openeew_data.ipynb).
+The code is available as a Jupyer notebook from our github [repo](https://github.com/openeew/openeew-python/blob/master/notebooks/exploring_openeew_data.ipynb).
 
 ### Installing requirements
 
@@ -63,13 +65,13 @@ Using the folium package, we can visualize the epicenter on a map:
         ).add_to(m)
 ```
 
-This produces a beautiful, interactive map with the epicenter shown as a crimson circle:
+This produces a beautiful interactive map with the epicenter shown as a crimson circle:
 
 ![Earthquake epicenter (map produced using folium)](/docs/pythonmap-1.png)_Earthquake epicenter (map produced using folium)_
 
 ### Getting device locations
 
-The next step is to see where Grillo's seismic devices were located at the time of the earthquake. This is straightforward using openeew:
+The next step is to see where OpenEEW's seismic devices were located at the time of the earthquake. This is straightforward using OpenEEW:
 
 ```python
     # Import the AwsDataClient class
@@ -292,7 +294,3 @@ which gives:
 ![How shaking changes with distance (plot created using plotnine)](/docs/pga-distance.png)_How shaking changes with distance (plot created using plotnine)_
 
 We see that the maximum acceleration decreases exponentially as distance from epicenter increases.
-
-## OpenEEW data with Node-RED
-
-In progress...
