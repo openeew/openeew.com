@@ -13,7 +13,7 @@ const features = [
     description: (
       <>
         OpenEEW sensors have been designed to compete against seismometers that
-        cost 60x more.
+        cost 60x more. 👩‍🔧
       </>
     ),
   },
@@ -23,7 +23,7 @@ const features = [
     description: (
       <>
         Using sensor data, detect and characterize the earthquake. Balance
-        accuracy with low-latency for effective alerts.
+        accuracy with low-latency for effective alerts. 👩🏻‍💻
       </>
     ),
   },

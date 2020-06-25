@@ -20,7 +20,7 @@ Components are mounted in a PCB with the corresponding circuitry. The board oper
 
 ![PCB design v1.0](/docs/pcb-3d.png)_OpenEEW sensor PCB design v1.0_
 
-You can find here the schematics, PCB and BOM files [here](https://github.com/openeew/openeew-sensor/kicad).
+You can find here the schematics, PCB and BOM files [here](https://github.com/openeew/openeew-sensor/tree/master/eagle).
 
 
 ## Firmware
@@ -31,4 +31,8 @@ We very much welcome any help adapting our firmware for different boards and con
 
 ## Enclosure
 
-You can either 3d print yourself an enclosure, or buy a case that fits the board dimensions ([such as this](https://www.aliexpress.com/item/4001044846335.html?spm=a2g0o.productlist.0.0.58725970IU6LYX&algo_pvid=be2f3136-fd5f-47da-af93-dbe0e929751d&algo_expid=be2f3136-fd5f-47da-af93-dbe0e929751d-55&btsid=0be3746c15925982818394467eee33&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)).
+You can either 3d print yourself an enclosure using Fusion 360 or your favourite modelling program. This design features snap lip joints to make it easy to assemble, and flanged base for a sturdy connection to the wall surface.
+![3d printed case v1.0](/docs/3d-case.PNG)_OpenEEW case design v1.0_
+
+
+Alternatively you can buy a case that fits the board dimensions ([such as this](https://www.aliexpress.com/item/4000337012320.html?spm=a2g0o.detail.1000014.19.36fa34d16GPRAR&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.14976.157518.0&scm_id=1007.14976.157518.0&scm-url=1007.14976.157518.0&pvid=d8255fa0-4728-41cd-be64-fe030910cf37&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.14976.157518.0,pvid:d8255fa0-4728-41cd-be64-fe030910cf37,tpp_buckets:668%230%23131923%2312_668%23808%236395%23432_668%23888%233325%233_4976%230%23157518%230_4976%232711%237538%23458_4976%233223%2310328%231_4976%233104%239653%235_4976%233141%239887%239_668%232846%238107%2326_668%232717%237564%23644_668%233164%239976%23121)).
