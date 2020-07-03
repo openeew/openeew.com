@@ -1,11 +1,16 @@
 # OpenEEW Documentation Website
 
-This OpenEEW website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This OpenEEW website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator, and hosted on Github.
 
-### Local Development
+### Setup
 
+- Install [node](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install).
+- Clone this repo.
+- Run `cd website` followed by `yarn install`.
+
+To run, 
 ```
-$ yarn start
+yarn run start
 ```
 
 This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
