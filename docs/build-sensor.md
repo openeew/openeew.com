@@ -10,12 +10,6 @@ If you prefer not to order a sensor but build your own, you can follow this guid
 
 The OpenEEW sensor features a high performance MEMS accelerometer and wifi connectivity. It has already shown itself to be [as good as seismometers that cost 60x more](https://openeew.com/blog/sensor-benchmark).
 
-The sensor features the following components:
-
-- ESP32 WROOM
-- ADXL355
-- Quectel L70 GPS (optional)
-
 Components are mounted in a PCB with the corresponding circuitry. The board operates at 3.3V with a maximum current of 1A. The accelerometer is accessed via SPI interface, specifically ESP32's VSPI. GPS is used with a UART interface.
 
 ![PCB design v1.0](/docs/pcb-3d.png)_OpenEEW sensor PCB design v1.0_
@@ -32,7 +26,7 @@ We very much welcome any help adapting our firmware for different boards and con
 ## Enclosure
 
 You can either 3d print yourself an enclosure using Fusion 360 or your favourite modelling program. This design features snap lip joints to make it easy to assemble, and flanged base for a sturdy connection to the wall surface.
-![3d printed case v1.0](/docs/3d-case.PNG)_OpenEEW case design v1.0_
+![3d printed case v1.0](/docs/case-3d.PNG)_OpenEEW case design v1.0_
 
 
 Alternatively you can buy a case that fits the board dimensions ([such as this](https://www.aliexpress.com/item/4000337012320.html?spm=a2g0o.detail.1000014.19.36fa34d16GPRAR&gps-id=pcDetailBottomMoreOtherSeller&scm=1007.14976.157518.0&scm_id=1007.14976.157518.0&scm-url=1007.14976.157518.0&pvid=d8255fa0-4728-41cd-be64-fe030910cf37&_t=gps-id:pcDetailBottomMoreOtherSeller,scm-url:1007.14976.157518.0,pvid:d8255fa0-4728-41cd-be64-fe030910cf37,tpp_buckets:668%230%23131923%2312_668%23808%236395%23432_668%23888%233325%233_4976%230%23157518%230_4976%232711%237538%23458_4976%233223%2310328%231_4976%233104%239653%235_4976%233141%239887%239_668%232846%238107%2326_668%232717%237564%23644_668%233164%239976%23121)).
