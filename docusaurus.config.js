@@ -58,6 +58,10 @@ module.exports = {
               label: "Get Started",
               to: "docs/read-first/",
             },
+            {
+              label: "Roadmap",
+              href: "https://github.com/openeew/openeew/projects/1",
+            },
           ],
         },
         {

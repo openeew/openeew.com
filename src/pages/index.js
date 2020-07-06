@@ -59,8 +59,8 @@ function Home() {
   const { siteConfig = {} } = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title={`${siteConfig.title} · Earthquake early-warnings`}
+      description="OpenEEW is a set of open source tools that allow anyone to create their own alerts for earthquakes."
     >
       <header className={classnames("hero hero--primary", styles.heroBanner)}>
         <div className="container">

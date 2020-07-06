@@ -55,9 +55,9 @@ We also append the `country_code` and `device_id` fields to identify which devic
 
 As shown on the [AWS Registry of Open Data](https://registry.opendata.aws/grillo-openeew/), OpenEEW data is available from an S3 bucket called `grillo-openeew` in the region `us-east-1`. This data is publicly available and does not require an AWS account to access it, although having one provides additional options for working with the data.
 
-You can view and download the OpenEEW records using [this S3 browser](https://s3.amazonaws.com/grillo-openeew/index.html).
+You can view and download the OpenEEW records using [this file browser](https://s3.amazonaws.com/grillo-openeew/index.html).
 
-![s3-browser](/docs/assets/openeew-s3-browser.png)
+![s3-browser](/docs/openeew-s3-browser.PNG)
 
 ### How are records organized on AWS?
 
