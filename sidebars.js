@@ -9,13 +9,10 @@ module.exports = {
       "provision-sensor",
       "update-firmware",
     ],
-    Detection: ["deploy-detection", "multi-station"],
+    Detection: ["deploy-detection-docker", "deploy-detection-nodered", "multi-station"],
     Monitor: ["create-dashboard"],
     Alarms: ["build-app", "build-alarm", "notify-3rd"],
-    Data: ["historic-data", "analyze-historic"],
-    Advanced: [
-      "machine-learning",
-      "intensity-prediction",
-    ],
+    Data: ["historic-data", "analyze-historic", "machine-learning", "intensity-prediction",],
+
   },
 };

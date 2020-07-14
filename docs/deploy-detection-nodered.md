@@ -1,10 +1,10 @@
 ---
-id: deploy-detection
+id: deploy-detection-nodered
 title: Deploy an earthquake detection system
-sidebar_label: Deploy an earthquake detection system
+sidebar_label: Deploy a Node-RED earthquake detection system
 ---
 
-There are various methods you can use to ingest sensor data and output an EEW alert. Here we provide an example with [Node-Red](#node-red), and also a [Docker image](#docker) containing MQTT broker, scripts and webhooks.
+There are various methods you can use to ingest sensor data and output an EEW alert. Here we provide an example with [Node-Red](#node-red), but you can also run the OpenEEW [Docker container](/docs/deploy-detection-docker).
 
 ## Node-RED
 Node-RED is a low-code tool for working with IoT data. It natively works with the JSON format which the OpenEEW sensor outputs, making it fast and easy to use. It also provides plugins, called `nodes`, that can take data from an MQTT broker, output to email, write to a database, and much more.
@@ -78,8 +78,3 @@ To create an STA/LTA function node, you will need to do the following:
 1. The average value taken from the 1 message window should be divided by the value for the 10 message window.
 
 Repeat this every second to obtain a new STA/LTA value. Experiment with [OpenEEW historic data](/docs/historic-data) to establish a good threshold for this value, based on the typical earthquake magnitudes in your region.
-
-
-
-## OpenEEW Docker image
-In progress...
