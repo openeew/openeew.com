@@ -9,14 +9,28 @@ Machine learning could offer significant improvements to OpenEEW earthquake dete
 
 OpenEEW sensors have been transmitting unprocessed data to the cloud since 2017 in Mexico, and captured hundreds of earthquakes including several of magnitude 6 and 7. A model trained on [this data](/docs/historic-data/) could be deployed on OpenEEW networks around the world (this is not a theoretical exercise!) and save many lives.
 
-### What is the goal?
+## What is the goal?
+To rapidly characterize the earthquake, ideally within a few seconds of the seismic waves reaching the sensor. Large earthquakes can last for a minute or more so we can't wait for the event to pass. It could be that the model is constantly updating its output so that more accurate estimates are being transmitted to nearby populations as the event goes on.
+
+### Establish an earthquake has occured
 Initially, a model should be able to determine if an earthquake is occuring in the accelerometer data. It should know that the accelerations are caused by a seismic event and not, say, a truck passing by.
 
-The next challenge is to characterize the earthquake and determine where it is coming from (distance, direction) and its size (magnitude). The magnitude should be determined using the P-Wave (the first wave) if possible.
+The start of the earthquake should determined from the start of the P-wave (initial wave).
 
-All this should ideally happen within a few seconds of the seismic waves reaching the sensor. Large earthquakes can last for a minute or more so we can't wait for the event to pass. It could be that the model is constantly updating its output so that more accurate estimates are being transmitted to nearby populations as the event goes on.
+### Locate earthquake or get distance from sensor
+The next challenge is to determine where it is coming from. This distance will be used in the next step.
 
-### Features
+### Determine magnitude of earthquake
+Finally, we should find the magnitude of the earthquake. For this we can use this equation:
+```
+M = 1.23xlog10(Pd) + 1.38xlog10(R) + 5.39
+```
+`M` = Magnitude
+`Pd` = Peak amplitude of the P-wave in centimeters
+`R` = distance of earthquake from the station
+
+
+## Features
 The dataset consists of 1 second records of accelerations from each sensor, sent every second. These records contain:
 
 ```javascript
