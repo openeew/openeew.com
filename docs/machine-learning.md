@@ -46,7 +46,7 @@ The dataset consists of 1 second records of accelerations from each sensor, sent
 }
 ```
 
-Each device also has a fixed location. You can query the latitude and longitude for each `device_id` from the [locations file](#) in the registry.
+Each device also has a fixed location. You can query the latitude and longitude for each `device_id` from the [locations file](https://grillo-openeew.s3.amazonaws.com/sensor_locations.csv) in the registry.
 
 ### Labelling earthquakes
 You can label seismic events in the dataset by cross-referencing with the Mexican Seismological Agency (SSN), which has a very good catalog that can be [downloaded as a CSV file](http://www2.ssn.unam.mx:8080/catalogo/).

@@ -12,7 +12,7 @@ The OpenEEW sensor features a high performance MEMS accelerometer and wifi conne
 
 Components are mounted in a PCB with the corresponding circuitry. The board operates at 3.3V with a maximum current of 1A. The accelerometer is accessed via SPI interface, specifically ESP32's VSPI. GPS is used with a UART interface.
 
-![PCB design v1.0](/docs/pcb-3d.png)_OpenEEW sensor PCB design v1.0_
+![PCB design v1.0](/docs/pcb-openeew.PNG)_OpenEEW sensor PCB design v1.0_
 
 You can find here the schematics, PCB and BOM files [here](https://github.com/openeew/openeew-sensor/tree/master/eagle).
 
