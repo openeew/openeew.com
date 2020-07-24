@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - run: sed --in-place 's/GOOGLEANALYTICS_KEY_REPLACE/${{ secrets.GOOGLEANALYTICS_KEY }}/' ./docusaurus.config.js
+      - run: sed --in-place 's/ALGOLIA_API_KEY_REPLACE/${{ secrets.ALGOLIA_API_KEY }}/' ./docusaurus.config.js
       - uses: actions/setup-node@v2-beta
       - name: Get Yarn cache directory
         id: yarn-cache-dir
