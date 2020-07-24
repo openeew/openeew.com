@@ -8,9 +8,11 @@ If you prefer not to order a sensor but build your own, you can follow this guid
 
 ## Hardware
 
-The OpenEEW sensor features a high performance MEMS accelerometer and wifi connectivity. It has already shown itself to be [as good as seismometers that cost 60x more](https://openeew.com/blog/sensor-benchmark).
+The OpenEEW sensor features a high performance MEMS accelerometer and ethernet or wifi connectivity. It includes also a loud buzzer and 3 bright Neopixel LEDS for alarm functions. By including alarm functions, the owners of the locations where they are installed are more likely to value and look after the device.
 
-Components are mounted in a PCB with the corresponding circuitry. The board operates at 3.3V with a maximum current of 1A. The accelerometer is accessed via SPI interface, specifically ESP32's VSPI. GPS is used with a UART interface.
+The sensor has already shown itself to be [as good as seismometers that cost 60x more](https://openeew.com/blog/sensor-benchmark).
+
+Components are mounted in a PCB with the corresponding circuitry. The board operates at 3.3V with a maximum current of 1A. The accelerometer is accessed via SPI interface, specifically ESP32's VSPI. GPS can optionally be added with a UART interface.
 
 ![PCB design v1.0](/docs/pcb-openeew.PNG)_OpenEEW sensor PCB design v1.0_
 
