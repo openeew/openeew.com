@@ -8,10 +8,10 @@ module.exports = {
   projectName: "openeew-docs", // Usually your repo name.
   themeConfig: {
     googleAnalytics: {
-      trackingID: "UA-168243058-1",
+      trackingID: "GOOGLEANALYTICS_KEY_REPLACE",
     },
     algolia: {
-      apiKey: "7bb5dd0f9f693e1fb3c126fbd97a229d",
+      apiKey: "ALGOLIA_API_KEY_REPLACE",
       indexName: "openeew",
       algoliaOptions: {}, // Optional, if provided by Algolia
     },
