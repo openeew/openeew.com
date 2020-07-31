@@ -14,7 +14,7 @@ The app also allows setting of country, testing of alarm, and browsing of previo
 
 Alerts are only made to notify if they result in a user intensity of more than 'Debil' i.e. 'Light'.
 
-![home](/docs/assets/app-screen1.webp)
-![alerts](/docs/assets/app-screen2.webp)
-![history](/docs/assets/app-screen4.webp)
-![past event](/docs/assets/app-screen6.webp)
+![home](/docs/app-screen1.webp)
+![alerts](/docs/app-screen2.webp)
+![history](/docs/app-screen4.webp)
+![past event](/docs/app-screen6.webp)
