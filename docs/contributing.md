@@ -4,12 +4,7 @@ title: Contributing
 sidebar_label: Contributing
 ---
 
-OpenEEW is currently under alpha development. The Grillo team has been developing and testing it since 2017, and we have early adopters who already started using it. We are now welcoming contributors to collaborate.
-
-The Open Source Guides website has a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project. Contributors and people new to open source alike will find the following guides especially useful:
-
-- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
-- [Building Welcoming Communities](https://opensource.guide/building-community/)
+We are now welcoming contributors to collaborate. If this is your first time contributing an open source project, consider reading about "[How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)" and "[Building Welcoming Communities](https://opensource.guide/building-community/)" because these are the guiding prinicples of OpenEEW.
 
 ## Code of Conduct
 OpenEEW has adopted a Code of Conduct that we expect project participants to adher to. Please red [the full text](https://github.com/openeew/openeew/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
@@ -71,13 +66,11 @@ All pull requests should be opened against the master branch.
 
 #### Test plan
 
-#### Test plan
-
 #### Copyright header for source code
 Copy and paste this to the top of your new file(s):
 ```
 # =============================================================================
-# Copyright Grillo Holdings Inc.
+# Copyright OpenEEW
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -99,3 +92,8 @@ The core OpenEEW team will be monitoring for pull requests. Do help us by keepin
 ## License
 By contributing to OpenEEW, you agree that your contributions will be licensed under its Apache 2 license.
 
+## Resources
+The Open Source Guides website has a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project. Contributors and people new to open source alike will find the following guides especially useful:
+
+- [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
+- [Building Welcoming Communities](https://opensource.guide/building-community/)
