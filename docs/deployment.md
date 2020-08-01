@@ -28,14 +28,14 @@ Select locations close to areas of seismic activity. Consider reliable power and
 
 ## 3. Select locations for sensors
 ### Choose number of sensors
-Based on your budget, determine how many sensors you can install. The more the better. An optimum spacing between sensors is 20km, but this can be increased as necessary due to budget.
+Based on your budget, determine how many sensors you can install. The more the better. An optimum spacing between sensors is 20km, but this can be modified as necessary due to budget.
 
 It is possible to build a basic EEW with only 2 or 3 sensors, then add more as budget becomes available. This network, initialy, could be designed to cover only the most active seismic zones, but later, as funds allow, expand to cover less active zones and therefore a greater range of future earthquakes.
 
 ### Map out optimum locations
 Consider the maximum distance you will need to have sensors from your locations. After a certain distance, earthquakes lose enough energy that the resulting shaking intensity at the target locations is no longer a threat 
 
-With the knowledge of historic seimisicity, grid spacing, and max distance, you can plot ideal locations for your sensors. Try and locate them near towns or citys where there will be reliable power and internet (unless you are using alternate connectivity options such as LoRaWAN or cellular).
+With the knowledge of historic seimisicity, grid spacing, and max distance, you can plot ideal locations for your sensors. Try and locate them near towns or cities where there will be reliable power and internet (unless you are using alternate connectivity options such as LoRaWAN or cellular).
 
 ![target location](/docs/deploy3.png)
 
