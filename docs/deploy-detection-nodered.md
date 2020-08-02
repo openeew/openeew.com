@@ -13,7 +13,7 @@ This tool allows you to make `flows` which are visual representations of data be
 
 ![openeew-quakeplayback-flow](/docs/openeew-quakeplayback-flow.png)
 
-Whilst most of what you may want to do requires simply connecting and configuring the `nodes`, for advanced work such as creating new `nodes` with unique logic, [knowledge of javascript](https://javascript.info/) is useful.
+Whilst most of what you may want to do requires simply connecting and configuring the `nodes`, for advanced work such as creating new `nodes` with unique logic, [knowledge of JavaScript](https://javascript.info/) is useful.
 
 ### Install Node-RED
 Node-RED can be installed on many systems, from a Raspberry Pi to a virtual machine in the cloud. You can find [instructions here](https://nodered.org/docs/getting-started/).

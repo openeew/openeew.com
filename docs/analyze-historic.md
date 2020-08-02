@@ -108,7 +108,7 @@ Clicking on the blue markers, we can see the corresponding device IDs:
 
 ### Getting accelerometer records
 
-Now we know where the different devices were located at the time of the earthquake, we would like to see their accelerometer records. This can be achieved using the method get_filtered_records together with the function get_df_from_records, which returns the accelerometer records as a pandas.DataFrame:
+Now we know where the different devices were located at the time of the earthquake, we would like to see their accelerometer records. This can be achieved using the method `get_filtered_records` together with the function `get_df_from_records`, which returns the accelerometer records as a pandas.DataFrame:
 
 ```python
     from openeew.data.df import get_df_from_records
@@ -126,7 +126,7 @@ Now we know where the different devices were located at the time of the earthqua
         )
 ```
 
-For plotting purposes, we extract a datetime.datetime object from the Unix time sample_t and then select the required columns:
+For plotting purposes, we extract a `datetime.datetime` object from the Unix time `sample_t` and then select the required columns:
 
 ```python
     from datetime import datetime
@@ -143,7 +143,7 @@ For plotting purposes, we extract a datetime.datetime object from the Unix time 
         ]
 ```
 
-Looking at the first few rows with results_df.head() gives:
+Looking at the first few rows with `results_df.head()` gives:
 
 | device_id |   x    |   y   |   z   |        sample_dt        |
 | :-------- | :----: | :---: | :---: | :---------------------: |
@@ -153,7 +153,7 @@ Looking at the first few rows with results_df.head() gives:
 | 000       | -0.177 | 0.128 | 0.121 | 2018-02-16 23:38:59.698 |
 | 000       | -0.132 | 0.177 | 0.102 | 2018-02-16 23:38:59.730 |
 
-To visualize these records, we use the package plotnine and a simple function that outputs a plot of the x-, y- and z-axes for a given device_id :
+To visualize these records, we use the package plotnine and a simple function that outputs a plot of the x-, y- and z-axes for a given `device_id`:
 
 ```python
     import plotnine as pn
@@ -206,7 +206,7 @@ Now we have an idea how the earthquake affected nearby devices, let's have a loo
 
 ![Device located in the south of Mexico City (map produced using folium)](/docs/pythonmap-4.png)_Device located in the south of Mexico City (map produced using folium)_
 
-For this device, plot_seismogram outputs the following for the x-axis:
+For this device, `plot_seismogram` outputs the following for the x-axis:
 
 ![Accelerometer records for device 000 (plot created using plotnine)](/docs/pyplot2.png)_Accelerometer records for device 000 (plot created using plotnine)_
 

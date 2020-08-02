@@ -14,7 +14,7 @@ There are many ways to contribute to OpenEEW and many of them do not involve wri
 
 - Start using OpenEEW! Get yourself a sensor, download software and send alerts. Does everything work as expected? If not, we're always looking for improvements. Let us know by [opening an issue](/#reporting-new-issues).
 - Add your sensor to an existing OpenEEW network. [Look for nearby networks](/), contact the administrator, and offer to route your data. This is a fantastic way to strengthen regional OpenEEW projects.
-- Help us make the docs better. File an issue if you find anything confusing or can be improved.
+- Help us make the [docs](https://github.com/openeew/openeew.com/tree/master/docs) better. File an issue if you find anything confusing or can be improved.
 - Take a look at features requested by others in the community and consider opening a pull request if you see something you want to work on.
 
 Contributions are very welcome. If you think you need help planning your contribution, please [join our Slack channel](https://join.slack.com/t/openeew/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ) or [send us an email](mailto:hello@openeew.com) and let us know you are looking for a bit of help.
@@ -63,8 +63,6 @@ Please make sure the following is done when submitting a pull request:
 - If you haven't already, sign the CLA.
 
 All pull requests should be opened against the master branch.
-
-#### Test plan
 
 #### Copyright header for source code
 Copy and paste this to the top of your new file(s):

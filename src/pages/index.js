@@ -33,7 +33,7 @@ const features = [
     description: (
       <>
         Predict the shaking for nearby users, and trigger alerts for people and
-        critical systems.
+        critical systems. ⚠️
       </>
     ),
   },

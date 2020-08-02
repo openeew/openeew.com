@@ -10,7 +10,7 @@ If you prefer, you can also try this with [Node-RED](/docs/deploy-detection-node
 
 ## Docker
 ### Install Docker Desktop
-A docker container can be installed on many systems depending on your requirements (number of sensors, latency to sensor network, and more), from a Raspberry Pi to a Kubernetes cluster in the cloud. 
+A Docker container can be installed on many systems depending on your requirements (number of sensors, latency to sensor network, and more), from a Raspberry Pi to a Kubernetes cluster in the cloud. 
 
 To install please follow these [instructions](https://www.docker.com/get-started).
 
