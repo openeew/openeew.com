@@ -19,12 +19,6 @@ Components are mounted in a PCB with the corresponding circuitry. The board oper
 You can find here the schematics, PCB and BOM files [here](https://github.com/openeew/openeew-sensor/tree/master/eagle).
 
 
-## Firmware
-
-You can download our Arduino firmware and install directly to the ESP32 board. For information [see here](https://github.com/openeew/openeew-sensor-arduino).
-
-We very much welcome any help adapting our firmware for different boards and connectivity options.
-
 ## Enclosure
 
 You can either 3D print yourself an enclosure using Fusion 360 or your favorite modelling program. This design features snap lip joints to make it easy to assemble, and flanged base for a sturdy connection to the wall surface.
