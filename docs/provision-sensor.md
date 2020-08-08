@@ -20,17 +20,10 @@ Follow this guide to [install PlatformIO](https://docs.platformio.org/en/latest/
 ### Open project
 Inside VSCode go to PlaformIO home, which is available on the bottom toolbar, and select `Projects`, then `Open Project`. Navigate to the root folder where you cloned this repository and open.
 
-### (Optional) Add certificates for AWS IoT
-Each device may require a unique `thing` with the AWS IoT Core registry. For AWS to permit message subscription and publishing, every device requires unique certificates as well as a unique Device ID.
-
-Place the 3 generated files inside of `/data` foler : `clientKeyCrtPem.txt`, `clientKeyPem.txt`, `deviceId.txt`.
-
-To upload the contents of the `data` folder you will need a tool called [ESP32 filesystem uploader](https://github.com/me-no-dev/arduino-esp32fs-plugin). To install, follow the instructions in this [readme](https://github.com/me-no-dev/arduino-esp32fs-plugin/blob/master/README.md), which will create a `Tools` > `ESP32 Sketch Data Upload` menu item within Arduino IDE. With the device connected and in bootloader mode, click on `Tools` > `ESP32 Sketch Data Upload`, which will upload the contents of the “data” folder placed with the Arduino Sketch.
-
 ### Flash your sensor
 Build the project using the check mark on the bottom toolbar, then uplaod using the arrow button adjacent to it. The IDE should automatically detect the board of your connnected sensor and start to write the new firmware.
 
-To add the certificates and other contents of the `data` folder to the SPIFFS memory, you need to
+If you are using a secure MQTT connection, you can add the certificates and other contents of the `data` folder to the SPIFFS memory, you need to
 open tasks in the PlaformIO menubar on the left, and select `Upload File System image`:
-![](/images/platformio-spiffs.png)
+![](/docs/platformio-spiffs.png)
 
