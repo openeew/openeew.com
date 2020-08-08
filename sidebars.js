@@ -7,7 +7,6 @@ module.exports = {
       "build-sensor",
       "install-sensor",
       "provision-sensor",
-      "custom-firmware",
     ],
     Detection: ["deploy-detection-docker", "deploy-detection-nodered", "multi-station"],
     Monitor: ["create-dashboard"],
