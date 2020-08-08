@@ -4,7 +4,7 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-Earthquakes killed 767,046 people between 2000 and 2010, and almost a third of the world's population live in seismically-active regions.
+Earthquakes killed [767,046 people between 2000 and 2010](https://www.statista.com/statistics/263108/global-death-toll-due-to-earthquakes-since-2000/), and almost a third of the world's population live in seismically-active regions.
 
 An earthquake early-warning (EEW) system sends real-time alerts to people _before the shaking arrives_. However only several governments have attempted to build EEWs due to the incredibly high-cost of traditional seismometers, dedicated telecommunications, and bespoke software.
 
