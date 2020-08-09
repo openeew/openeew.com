@@ -4,7 +4,9 @@ title: Build your own sensor
 sidebar_label: Build a sensor
 ---
 
-If you prefer not to order a sensor but build your own, you can follow this guide. Here you can build your own PCB, flash firmware, and fabricate your sensor enclosure.
+You can order a pre-assembled, plug and play, sensor that has been flashed with firmware [here](https://grillo.io/buy-sensor/).
+
+Alternatively, you can build your own with this guide. Here you can create your own PCB, flash firmware, and fabricate your sensor enclosure.
 
 ## Hardware
 
