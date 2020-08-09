@@ -83,7 +83,7 @@ function Home() {
                 "button button--outline button--secondary button--lg",
                 styles.getStarted
               )}
-              to={useBaseUrl("/")}
+              to={useBaseUrl("https://grillo.io/buy-sensor/")}
             >
               Buy Sensor
             </Link>
