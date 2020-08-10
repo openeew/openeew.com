@@ -3,8 +3,9 @@ id: contributing
 title: Contributing
 sidebar_label: Contributing
 ---
+When contributing a major change to this repository, please first discuss the change you wish to make via an issue or via Slack. Minor issues can simply be addressed by sending by a pull request.
 
-We are now welcoming contributors to collaborate. If this is your first time contributing an open source project, consider reading about "[How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)" and "[Building Welcoming Communities](https://opensource.guide/building-community/)" because these are the guiding prinicples of OpenEEW.
+If this is your first time contributing an open source project, consider reading about "[How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)" and "[Building Welcoming Communities](https://opensource.guide/building-community/)" because these are the guiding prinicples of OpenEEW.
 
 ## Code of Conduct
 OpenEEW has adopted a Code of Conduct that we expect project participants to adher to. Please red [the full text](https://github.com/openeew/openeew/blob/master/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
