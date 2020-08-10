@@ -3,6 +3,7 @@ id: build-sensor
 title: Build your own sensor
 sidebar_label: Build a sensor
 ---
+Please also refer to the accompanying [Github Repository](https://github.com/openeew/openeew-sensor).
 
 You can order a pre-assembled, plug and play, sensor that has been flashed with firmware [here](https://grillo.io/buy-sensor/).
 
