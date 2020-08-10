@@ -3,6 +3,7 @@ id: deploy-detection-docker
 title: Deploy an earthquake detection system
 sidebar_label: Deploy an earthquake detection system
 ---
+👉🏼 Please also refer to the accompanying [Github Repository](https://github.com/openeew/openeew-detection).
 
 There are various methods you can use to ingest sensor data and output an EEW alert. Here we provide a [Docker container](#docker) featuring an MQTT broker, detection scripts, and a time-series database. 
 
