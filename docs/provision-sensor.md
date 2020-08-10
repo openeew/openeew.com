@@ -3,7 +3,7 @@ id: provision-sensor
 title: Provision an OpenEEW sensor
 sidebar_label: Provision a sensor
 ---
-Please also refer to the accompanying [Github Repository](https://github.com/openeew/openeew-sensor).
+👉🏼 Please also refer to the accompanying [Github Repository](https://github.com/openeew/openeew-sensor).
 
 Once you have an OpenEEW sensor is ready and fixed to a rigid building element, its time to connect it and get started!
 
