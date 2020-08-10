@@ -100,7 +100,9 @@ module.exports = {
         alt: "OpenEEW Logo",
         src: "img/logo-white.svg",
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Grillo Holdings Inc.`,
+      copyright: `Copyright © 2020 OpenEEW Project a Series of LF Projects, LLC.  
+      OpenEEW is a trademark of LF Projects, LLC.  
+      For trademark usage guidelines, privacy and cookie policies, and other applicable policies, as well as terms and conditions governing this web site, please see www.lfprojects.org`,
     },
   },
   presets: [
