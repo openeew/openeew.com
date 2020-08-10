@@ -13,7 +13,8 @@ OpenEEW has adopted a Code of Conduct that we expect project participants to adh
 There are many ways to contribute to OpenEEW and many of them do not involve writing code or building hardware. Here's a few ideas to get started:
 
 - Start using OpenEEW! Get yourself a sensor, download software and send alerts. Does everything work as expected? If not, we're always looking for improvements. Let us know by [opening an issue](/#reporting-new-issues).
-- Add your sensor to an existing OpenEEW network. [Look for nearby networks](/), contact the administrator, and offer to route your data. This is a fantastic way to strengthen regional OpenEEW projects.
+- Add your sensor to an existing OpenEEW network. Join the [Slack](https://join.slack.com/t/openeew/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ) #networks channel
+and offer to work with others for a particular region. Perhaps you find others nearby who want to pool sensors together and coordinate a new EEW. This is a fantastic way to strengthen regional OpenEEW projects.
 - Help us make the [docs](https://github.com/openeew/openeew.com/tree/master/docs) better. File an issue if you find anything confusing or can be improved.
 - Take a look at features requested by others in the community and consider opening a pull request if you see something you want to work on.
 
