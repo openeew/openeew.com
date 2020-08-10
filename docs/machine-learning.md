@@ -71,4 +71,4 @@ Zachary Ross - [Phase detection](https://github.com/interseismic)
 
 <img src="/docs/nvidia.png" alt="sensor" width="200"/>
 
-As a member of the [NVIDIA Inception](https://www.nvidia.com/en-us/deep-learning-ai/startups/) program, we are able to support promising advances with ML and OpenEEW data with access to GPU cloud virtual machines.
+As a member of the [NVIDIA Inception](https://www.nvidia.com/en-us/deep-learning-ai/startups/) program, we are able to support promising advances with ML and OpenEEW data with access to GPU cloud virtual machines. Please write to use at hello@openeew.com if you are interested in applying.
