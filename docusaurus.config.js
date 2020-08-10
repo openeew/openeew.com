@@ -76,10 +76,6 @@ module.exports = {
               href:
                 "https://join.slack.com/t/openeew/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ",
             },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/grilloshake",
-            },
           ],
         },
         {
