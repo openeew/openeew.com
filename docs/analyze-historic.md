@@ -4,11 +4,13 @@ title: Analyze OpenEEW data
 sidebar_label: Analyze OpenEEW data
 ---
 
-There are various methods you can use to read historic OpenEEW data, in order to test new algorithms. Here we provide an example with our [Python library](#openeew-data-with-python), and also using [Node-RED](#openeew-data-with-node-red).
+There are various methods you can use to read historic OpenEEW data, in order to test new algorithms. Here we provide an example with our [Python library](#openeew-data-with-python).
 
 Here you can find [a package using Julia](https://github.com/tclements/OpenEEW.jl) for working with OpenEEW data, created by [Tim Clements](https://github.com/tclements).
 
 [Laura Ermert](https://github.com/lermert) has created [tools in python and Julia](https://github.com/lermert/grillo_ruido) to facilitate working with OpenEEW data, for example converstion to MSEED format.
+
+We also have a dashboard [in Node-RED](https://github.com/openeew/openeew-nodered) that allows you to view historic data.
 
 ## OpenEEW data with Python
 
