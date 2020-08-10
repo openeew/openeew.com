@@ -8,7 +8,7 @@ module.exports = {
       "install-sensor",
       "provision-sensor",
     ],
-    Detection: ["deploy-detection-docker", "deploy-detection-nodered", "multi-station"],
+    Detection: ["deploy-detection-docker", "deploy-detection-nodered"],
     Monitor: ["create-dashboard"],
     Alarms: ["build-app", "build-alarm", "notify-3rd"],
     Data: ["historic-data", "analyze-historic", "machine-learning", "intensity-prediction",],
