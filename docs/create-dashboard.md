@@ -3,7 +3,8 @@ id: create-dashboard
 title: Create a monitoring dashboard
 sidebar_label: Create dashboard
 ---
-## Grafana
+👉🏼 Please also refer to the accompanying [Github Repository](https://github.com/openeew/openeew-dashboard).
+
 [Grafana](https://github.com/grafana/grafana) provides a low-latency visualization of time-series data. Perfect for real-time accelerations from OpenEEW sensors!
 
 ### Install
