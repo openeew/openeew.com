@@ -3,6 +3,8 @@ id: contributing
 title: Contributing
 sidebar_label: Contributing
 ---
+👉🏼 Please also refer to the accompanying [Contributing file in Github](https://github.com/openeew/openeew/blob/master/CONTRIBUTING.md).
+
 When contributing a major change to this repository, please first discuss the change you wish to make via an issue or via Slack. Minor issues can simply be addressed by sending by a pull request.
 
 If this is your first time contributing an open source project, consider reading about "[How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)" and "[Building Welcoming Communities](https://opensource.guide/building-community/)" because these are the guiding prinicples of OpenEEW.
