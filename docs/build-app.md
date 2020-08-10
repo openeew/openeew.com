@@ -3,8 +3,9 @@ id: build-app
 title: Build an EEW app
 sidebar_label: Build an EEW app
 ---
+👉🏼 Please also refer to the accompanying [Github Repository](https://github.com/grillo/openeew-app-reactnative).
 
-For this example, we will create  earthquake early-warning (EEW) app using React Native. You can find [the source code here](https://github.com/grillo/openeew-app-reactnative).
+For this example, we will create  earthquake early-warning (EEW) app using React Native.
 
 The app receives FCM push notifications, and visualizes historic earthquakes from a Firebase realtime database.
 
