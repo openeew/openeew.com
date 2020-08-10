@@ -18,4 +18,4 @@ For this reason we have decided to launch **OpenEEW**, an initiative to share ou
 
 We have created a welcoming community here. Join [Slack](https://join.slack.com/t/openeew/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ), play with our code on [GitHub](https://github.com/openeew), order or build a sensor, and help put effective EEWs within the reach of everyone.
 
-_Andres Meira, CEO of Grillo._
+_Andres Meira, CEO of Grillo (a founding member of OpenEEW)_
