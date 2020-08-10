@@ -1,8 +1,9 @@
 ---
 id: deploy-detection-nodered
-title: Deploy an earthquake detection system
+title: Deploy a Node-RED detection system
 sidebar_label: Deploy a Node-RED earthquake detection system
 ---
+👉🏼 Please also refer to the accompanying [Github Repository](https://github.com/openeew/openeew-nodered).
 
 There are various methods you can use to ingest sensor data and output an EEW alert. Here we provide an example with [Node-Red](#node-red), but you can also run the OpenEEW [Docker container](/docs/deploy-detection-docker).
 
