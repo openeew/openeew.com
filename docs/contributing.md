@@ -32,11 +32,12 @@ When opening a new issue, always make sure to fill out the issue template. This 
 ### Reporting bugs
 We use GitHub Issues for our public bugs. If you would like to report a problem, take a look around and see if someone already opened an issue about it. If you a are certain this is a new, unreported bug, you can submit a bug report.
 
-If you have questions about using Docusaurus, contact the Docusaurus Twitter account at @docusaurus, and we will do our best to answer your questions.
-
-You can also file issues as feature requests or enhancements. If you see anything you'd like to be implemented, create an issue with feature template
+You can file issues as feature requests or enhancements. If you see anything you'd like to be implemented, create an issue with feature template.
 
 ## Pull requests
+### DCO
+All pull requests will require you to ensure the change is certified via the [Developer Certificate of Origin (DCO)](https://github.com/apps/dco/). The DCO is a lightweight way for contributors to certify that they wrote or otherwise have the right to submit the code they are contributing to the project.
+
 ### Your first pull request
 So you have decided to contribute code back to upstream by opening a pull request. You've invested a good chunk of time, and we appreciate it. We will do our best to work with you and get the PR looked at.
 
@@ -61,7 +62,6 @@ Please make sure the following is done when submitting a pull request:
 - Describe your test plan in your pull request description. Make sure to test your changes!
 - Make sure your code lints (yarn prettier && yarn lint).
 - Make sure your Jest tests pass (yarn test).
-- If you haven't already, sign the CLA.
 
 All pull requests should be opened against the master branch.
 
