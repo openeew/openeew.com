@@ -1,6 +1,6 @@
 module.exports = {
   title: "OpenEEW",
-  tagline: "Build an earthquake early-warning for your community",
+  tagline: "Build an earthquake early-warning system for your community",
   url: "https://openeew.github.io",
   baseUrl: "/",
   favicon: "img/favicon.ico",
@@ -25,7 +25,7 @@ module.exports = {
     navbar: {
       title: "OpenEEW",
       logo: {
-        alt: "OpenEEW Logo",
+        alt: "OpenEEW Logo - A Code and Response™ with The Linux Foundation project",
         src: "img/logo.svg",
         srcDark: "img/logo-white.svg", // Default to `logo.src`.
       },
@@ -101,6 +101,7 @@ module.exports = {
         src: "img/logo-white.svg",
       },
       copyright: `Copyright © 2020 OpenEEW Project a Series of LF Projects, LLC.  
+      OpenEEW is a <a target="_blank" rel="noopener noreferrer" href="https://www.linuxfoundation.org/projects/code-and-response/">Code and Response™ with The Linux Foundation project</a>.
       OpenEEW is a trademark of LF Projects, LLC.  
       For trademark usage guidelines, privacy and cookie policies, and other applicable policies, as well as terms and conditions governing this web site, please see www.lfprojects.org`,
     },
