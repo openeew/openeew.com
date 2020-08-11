@@ -6,7 +6,7 @@ This OpenEEW website is built using [Docusaurus 2](https://v2.docusaurus.io/), a
 
 - Install [node](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install).
 - Clone this repo.
-- Run `cd website` followed by `yarn install`.
+- Run `yarn install`.
 
 To run, 
 ```
@@ -20,7 +20,7 @@ This command starts a local development server and open up a browser window. Mos
 ```
 $ GIT_USER=<username> yarn deploy
 ```
-This command is a convenient way to build the website and push to the `gh-pages` branch with github pages hosting.
+This command is a convenient way to build the website and push to the `gh-pages` branch with GitHub Pages hosting.
 
 ## License
 
