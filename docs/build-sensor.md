@@ -19,7 +19,7 @@ Components are mounted in a PCB with the corresponding circuitry. The board oper
 
 ![PCB design v1.0](/docs/pcb-openeew.PNG)_OpenEEW sensor PCB design v1.0_
 
-You can find here the schematics, PCB and BOM files [here](https://github.com/openeew/openeew-sensor/tree/master/eagle).
+You can find here the schematics, PCB and BOM files [here](https://github.com/openeew/openeew-sensor/tree/master/pcb).
 
 
 ## Enclosure
