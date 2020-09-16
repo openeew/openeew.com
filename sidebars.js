@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    OpenEEW: ["introduction", "contributing"],
+    OpenEEW: ["introduction", "contributing", "roadmap"],
     "Getting Started": ["read-first", "requirements"],
     Sensors: [
       "deployment",
