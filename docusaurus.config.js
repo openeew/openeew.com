@@ -26,8 +26,8 @@ module.exports = {
       title: "OpenEEW",
       logo: {
         alt: "OpenEEW Logo - A Code and Response™ with The Linux Foundation project",
-        src: "img/logo.svg",
-        srcDark: "img/logo-white.svg", // Default to `logo.src`.
+        src: "img/logo_2020.svg",
+        srcDark: "img/logo_2020_dark.svg", // Default to `logo.src`.
       },
       links: [
         {
