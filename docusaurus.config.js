@@ -98,7 +98,7 @@ module.exports = {
       ],
       logo: {
         alt: "OpenEEW Logo",
-        src: "img/logo_2020_dark.svg",
+        src: "img/OpenEEW_logo.svg",
       },
       copyright: `Copyright © 2020 OpenEEW Project a Series of LF Projects, LLC.  
       OpenEEW is a <a target="_blank" rel="noopener noreferrer" href="https://www.linuxfoundation.org/projects/code-and-response/">Call for Code® with The Linux Foundation project</a>.
