@@ -19,7 +19,7 @@ module.exports = {
       id: "slack", // Any value that will identify this message.
       content:
         '♥ Join the community on <a target="_blank" rel="noopener noreferrer" href="https://join.slack.com/t/openeew/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ">Slack</a> ♥',
-      backgroundColor: "#35e1ff", // Defaults to `#fff`.
+      backgroundColor: "#ffe93f", // Defaults to `#fff`.
       textColor: "#091E42", // Defaults to `#000`.
     },
     navbar: {
