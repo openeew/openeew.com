@@ -25,7 +25,7 @@ For Docker Setup
 - Install [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/).
 - Clone this repo.
 - Run `docker-compose build`.
-To run, 
+- To run, 
 ```
     docker-compose run
 ```
