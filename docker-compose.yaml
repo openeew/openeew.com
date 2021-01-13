@@ -1,0 +1,14 @@
+version: '3'
+services:
+  web:
+    build: .
+    image: openeew.com
+    volumes:
+      - node_modules:/app/node_modules
+      - .:/app:cached
+
+    ports:
+      - '3000:3000'
+
+volumes:
+  node_modules:
