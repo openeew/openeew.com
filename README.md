@@ -12,15 +12,31 @@ To run,
 ```
 yarn run start
 ```
-
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
-
 ### Deployment
 
 ```
 $ GIT_USER=<username> yarn deploy
 ```
 This command is a convenient way to build the website and push to the `gh-pages` branch with GitHub Pages hosting.
+
+For Docker Setup
+### Setup
+
+- Install [docker](https://docs.docker.com/engine/install/) and [docker-compose](https://docs.docker.com/compose/install/).
+- Clone this repo.
+- Run `docker-compose build`.
+To run, 
+```
+    docker-compose run
+```
+
+### Deployment Using docker-compose 
+```
+    docker-compose exec web GIT_USER=<username> yarn deploy
+```
+
+This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+
 
 ## License
 
