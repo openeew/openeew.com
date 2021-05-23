@@ -88,3 +88,35 @@
     }
   }
 }
+
+// Sensor information section.
+.info-section {
+
+    margin-bottom: 10vw;
+
+    .info-text {
+        padding-top: 20px;
+        border-top: 1px solid white;
+        div[class^="bx--col"] {
+            margin-top: 10px;
+        }
+    }
+
+    .sensor-image {
+        margin-top: 5vw;
+        width: min(450px, 90vw);
+    }
+
+    button {
+        width: 100%;
+        background-color: inherit;
+        border: 2px solid white;
+    }
+}
+
+// Dashboard information section
+.dashboard-image {
+    margin-top: 5vw;
+    width: 100%;
+}
+

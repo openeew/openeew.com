@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import  { SensorInfo, DashboardInfo, NetworkInfo } from '../components/Sensors';
 import Banner from '../components/Banner';
 
 const Landing = () => {
@@ -7,6 +8,9 @@ const Landing = () => {
     <div>
       <Header />
       <Banner />
+      <SensorInfo />
+      <DashboardInfo />
+      <NetworkInfo />
     </div>
   );
 };
