@@ -1,1 +1,14 @@
+@import '~carbon-components/scss/globals/scss/vendor/@carbon/type/scss/font-family.scss';
+@import '~carbon-components/scss/globals/scss/vendor/@carbon/layout/scss/breakpoint.scss';
+@import '~carbon-components/scss/globals/scss/typography.scss';
+@import '~carbon-components/scss/globals/scss/vars.scss';
+
+$small: 320px;
+$medium: 672px;
+$large: 1056px;
+
+html {
+  font-size: 16px;
+}
+
 @import './Landing.scss';

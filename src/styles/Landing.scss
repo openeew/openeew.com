@@ -1,0 +1,7 @@
+// Carbon Typographyh
+// https://www.carbondesignsystem.com/guidelines/typography/productive
+
+.bx--header .bx--header__name {
+  @include carbon--type-style('productive-heading-04');
+  font-size: 1.1rem;
+}
