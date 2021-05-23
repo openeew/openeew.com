@@ -18,13 +18,13 @@ const SensorInfo = () => {
                 {/* TODO: Get text from json. */}
                 <Column lg={4}><h4>{t("sensor_title")}</h4></Column>
                 <Column lg={8}><h3>{t("sensor_description")}</h3></Column>
-                <Column lg={4}><Button kind="secondary">{t("sensor_button_text")}</Button></Column>
+                <Column lg={3}><Button kind="secondary">{t("sensor_button_text")}</Button></Column>
             </Row>
             <Row className="info-media">
                 <Column lg={{ span: 6, offset: 4 }}>
                     <img className="sensor-image" src={nodeBlue} alt="A 3D printed sensor"></img>
                 </Column>
-                <Column lg={6}>
+                <Column lg={4}>
                     <img className="sensor-image" src={node3DPrint} alt="The case for the sensor"></img>
                 </Column>
             </Row>
@@ -41,10 +41,10 @@ const DashboardInfo = () => {
                 {/* TODO: Get text from json. */}
                 <Column lg={4}><h4>{t("dashboard_title")}</h4></Column>
                 <Column lg={8}><h3>{t("dashboard_description")}</h3></Column>
-                <Column lg={4}><Button kind="secondary">{t("dashboard_button_text")}</Button></Column>
+                <Column lg={3}><Button kind="secondary">{t("dashboard_button_text")}</Button></Column>
             </Row>
             <Row className="info-media">
-                <Column lg={{ span: 12, offset: 4 }}>
+                <Column lg={{ span: 11, offset: 4 }}>
                     <img className="dashboard-image" src={nodeBlue} alt="A 3D printed sensor"></img>
                 </Column>
             </Row>
@@ -61,10 +61,10 @@ const NetworkInfo = () => {
                 {/* TODO: Get text from json. */}
                 <Column lg={4}><h4>{t("network_title")}</h4></Column>
                 <Column lg={8}><h3>{t("network_description")}</h3></Column>
-                <Column lg={4}><Button kind="secondary">{t("network_button_text")}</Button></Column>
+                <Column lg={3}><Button kind="secondary">{t("network_button_text")}</Button></Column>
             </Row>
             <Row className="info-media">
-                <Column lg={{ span: 12, offset: 4 }}>
+                <Column lg={{ span: 11, offset: 4 }}>
                     <img className="dashboard-image" src={nodeBlue} alt="A 3D printed sensor"></img>
                 </Column>
             </Row>

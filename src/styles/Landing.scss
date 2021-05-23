@@ -55,6 +55,12 @@
         margin-top: 5vw;
         width: min(450px, 90vw);
     }
+
+    button {
+        width: 100%;
+        background-color: inherit;
+        border: 2px solid white;
+    }
 }
 
 // Dashboard information section
