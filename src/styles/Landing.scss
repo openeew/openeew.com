@@ -5,3 +5,16 @@
   @include carbon--type-style('productive-heading-04');
   font-size: 1.1rem;
 }
+
+.info-section {
+    margin-top: 200px;
+}
+
+.info-text > div[class^="bx--col"] {
+    margin-top: 10px;
+}
+
+.sensor-image {
+    margin-top: 30px;
+    width: min(400px, 90vw);
+}

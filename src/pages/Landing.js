@@ -1,11 +1,12 @@
 import React from 'react';
 import Header from '../components/Header';
+import Sensors from '../components/Sensors';
 
 const Landing = () => {
   return (
     <div>
       <Header />
-      <h1>Hello World</h1>
+      <Sensors />
     </div>
   );
 };
