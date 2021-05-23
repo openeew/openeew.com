@@ -4,8 +4,11 @@ import {
   HeaderName,
   HeaderGlobalAction,
   HeaderGlobalBar,
+  HeaderNavigation,
+  HeaderMenuItem,
 } from 'carbon-components-react/lib/components/UIShell';
-import AppSwitcher20 from '@carbon/icons-react/lib/app-switcher/20';
+import LogoGitHub20 from '@carbon/icons-react/lib/logo--github/20';
+import LogoSlack20 from '@carbon/icons-react/lib/logo--slack/20';
 
 import AppContext from '../context/app';
 
@@ -14,12 +17,32 @@ const _Header = () => {
 
   return (
     <Header aria-label="OpenEEW" className="header--container">
-      <HeaderName href="#" prefix="">
+      <HeaderName href="/" prefix="">
         {t('title')}
       </HeaderName>
+
+      <HeaderNavigation aria-label="IBM [Platform]">
+        <HeaderMenuItem target="_blank" href="https://dashboard.openeew.com">
+          Dashboard
+        </HeaderMenuItem>
+      </HeaderNavigation>
+
       <HeaderGlobalBar>
-        <HeaderGlobalAction aria-label="Dashboard" tooltipAlignment="end">
-          <AppSwitcher20 />
+        <HeaderGlobalAction
+          aria-label="Github"
+          target="_blank"
+          href="https://github.com/openeew"
+          tooltipAlignment="end"
+        >
+          <LogoGitHub20 />
+        </HeaderGlobalAction>
+        <HeaderGlobalAction
+          aria-label="Slack"
+          target="_blank"
+          href="https://openeew.slack.com/"
+          tooltipAlignment="end"
+        >
+          <LogoSlack20 />
         </HeaderGlobalAction>
       </HeaderGlobalBar>
     </Header>

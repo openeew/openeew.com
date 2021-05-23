@@ -1,7 +1,39 @@
 // Carbon Typographyh
 // https://www.carbondesignsystem.com/guidelines/typography/productive
 
+// Header
 .bx--header .bx--header__name {
   @include carbon--type-style('productive-heading-04');
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.bx--header__nav {
+  display: block;
+  position: absolute;
+  right: 95px;
+}
+
+// Banner
+.landing__banner {
+  height: 100vh;
+  margin-top: 3rem;
+  display: flex;
+
+  .landing__openEEW {
+    display: flex;
+    flex: 0 0 50%;
+
+    p {
+      @include carbon--type-style('productive-heading-04');
+    }
+  }
+
+  .landing__mission {
+    display: flex;
+    flex: 0 0 50%;
+
+    p {
+      @include carbon--type-style('productive-heading-04');
+    }
+  }
 }
