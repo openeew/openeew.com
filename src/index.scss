@@ -3,4 +3,16 @@
 $carbon--theme: $carbon--theme--g90;
 @include carbon--theme();
 
+$feature-flags: (
+  ui-shell: true,
+  grid-columns-16: true,
+);
+
+@import '@carbon/type/scss/type';
+@import '@carbon/type/scss/font-face/mono';
+@import '@carbon/type/scss/font-face/sans';
+@include carbon--type-reset();
+@include carbon--font-face-mono();
+@include carbon--font-face-sans();
+
 @import 'carbon-components/scss/globals/scss/styles.scss';
