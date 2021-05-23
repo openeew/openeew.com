@@ -88,3 +88,16 @@
     }
   }
 }
+
+.landing__diagram {
+  background-color: #bdbdbd;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+  height: 550px;
+  padding-top: 2rem;
+
+  img {
+    height: 600px;
+  }
+}
