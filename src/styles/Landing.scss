@@ -3,7 +3,7 @@
 
 // Header
 .bx--header .bx--header__name {
-  @include carbon--type-style('productive-heading-04');
+  @include carbon--type-style('expressive-heading-04');
   font-size: 1rem;
 }
 
@@ -13,27 +13,78 @@
   right: 95px;
 }
 
-// Banner
 .landing__banner {
-  height: 100vh;
-  margin-top: 3rem;
   display: flex;
+  flex-wrap: wrap;
+  margin: 6rem 1.4rem 0 1.4rem;
+
+  @media screen and (min-width: $medium) {
+    height: 50vh;
+    margin: 3rem auto;
+    height: 35rem;
+    max-width: 90rem;
+  }
 
   .landing__openEEW {
-    display: flex;
-    flex: 0 0 50%;
+    flex: 0 0 100%;
 
-    p {
-      @include carbon--type-style('productive-heading-04');
+    @media screen and (min-width: $medium) {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      padding: 1.5rem;
+    }
+
+    .landing__openEEWWrapper {
+      position: relative;
+
+      h1 {
+        @include carbon--type-style('expressive-heading-06');
+        font-size: 3.3rem;
+        position: absolute;
+        top: 5px;
+        left: 105px;
+
+        @media screen and (min-width: $medium) {
+          width: 7rem;
+          top: 20px;
+          left: 140px;
+        }
+      }
+
+      img {
+        width: 5rem;
+        margin-bottom: 1rem;
+
+        @media screen and (min-width: $medium) {
+          width: 7rem;
+        }
+      }
+
+      @media screen and (min-width: $medium) {
+        display: flex;
+      }
     }
   }
 
   .landing__mission {
-    display: flex;
-    flex: 0 0 50%;
+    margin-top: 1rem;
 
-    p {
-      @include carbon--type-style('productive-heading-04');
+    @media screen and (min-width: $medium) {
+      flex: 0 0 50%;
+      display: flex;
+      align-items: center;
+      padding: 1.5rem;
+    }
+
+    h1 {
+      @include carbon--type-style('productive-heading-06');
+      border-left: 1px solid #3bb1a1;
+      padding-left: 2rem;
+
+      @media screen and (min-width: $medium) {
+        @include carbon--type-style('productive-heading-07');
+      }
     }
   }
 }

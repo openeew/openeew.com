@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import openeew_logo from '../content/assets/openeew_logo.svg';
 
+import AppContext from '../context/app';
+
 const Banner = () => {
+  const { t } = useContext(AppContext);
+
   return (
     <div className="landing__banner">
       <div className="landing__openEEW">
@@ -11,10 +15,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="landing__mission">
-        <h1>
-          Open-source low-cost earthquake early warning solution for seismic
-          risk mitigation.
-        </h1>
+        <h1>{t('banner_mission')}</h1>
       </div>
     </div>
   );
