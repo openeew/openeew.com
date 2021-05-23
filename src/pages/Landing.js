@@ -1,12 +1,16 @@
 import React from 'react';
 import Header from '../components/Header';
-import Sensors from '../components/Sensors';
+import  { SensorInfo, DashboardInfo, NetworkInfo } from '../components/Sensors';
+import Banner from '../components/Banner';
 
 const Landing = () => {
   return (
     <div>
       <Header />
-      <Sensors />
+      <Banner />
+      <SensorInfo />
+      <DashboardInfo />
+      <NetworkInfo />
     </div>
   );
 };

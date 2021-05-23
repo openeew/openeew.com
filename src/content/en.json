@@ -1,3 +1,12 @@
 {
-  "title": "OpenEEW"
+  "title": "OpenEEW",
+  "sensor_title": "Low-cost sensors",
+  "sensor_description": "Our sensors are low-cost, high-quality seismometers that can deploy with ease to monitor ground motion.",
+  "sensor_button_text": "Learn more",
+  "dashboard_title": "Cloud-based detection system & dashboard",
+  "dashboard_description": "Our dashboard reflects earthquake detections and allows sensor owners to manage their devices.",
+  "dashboard_button_text": "Visit the dashboard",
+  "network_title": "Global network of seismically-active regions",
+  "network_description": "Our system is most powerful in densely-populated areas where large earthquakes are likely to occur.",
+  "network_button_text": "Learn more"
 }
