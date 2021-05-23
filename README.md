@@ -1,27 +1,31 @@
-# OpenEEW Documentation Website
+# Gatsby Theme Carbon Starter
 
-This OpenEEW website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator, and hosted on Github.
+## What is this?
 
-### Setup
+> Gatsby [themes](https://www.gatsbyjs.org/docs/themes/) encapsulate all of the
+> configuration and implementation details of Gatsby websites. This is a
+> starter-kit (boilerplate) with a dependancy on the `gatsby-theme-carbon`
+> package. The primary goal of `gatsby-theme-carbon` is to get content authors
+> speaking the IBM Design Language with Carbon as soon as possible. It includes
+> some sample components/content demos in the `src/pages` directory.
 
-- Install [node](https://nodejs.org/en/download/) and [yarn](https://classic.yarnpkg.com/en/docs/install).
-- Clone this repo.
-- Run `yarn install`.
+## How do I use it?
 
-To run, 
-```
-yarn run start
-```
+Check out our quick
+[getting started](https://gatsby-theme-carbon.now.sh/getting-started) guide and
+video!
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+`gatsby-theme-carbon` at it’s core relies on [mdx](https://mdxjs.com/) for page
+creation. Check out the `src/pages` directory for some examples for using mdx.
 
-### Deployment
+A key feature of Gatsby themes is component shadowing. By simply placing a
+component into the `src/gatsby-theme-carbon/components` location, you can
+override components used by the theme. You can read more about component
+shadowing
+[here](https://www.gatsbyjs.org/docs/themes/api-reference#component-shadowing).
 
-```
-$ GIT_USER=<username> yarn deploy
-```
-This command is a convenient way to build the website and push to the `gh-pages` branch with GitHub Pages hosting.
+You’re also free to make your own components and use them in your MDX pages.
 
-## License
+## What’s Next?
 
-This document site is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+[Check out the docs!](https://gatsby-theme-carbon.now.sh)

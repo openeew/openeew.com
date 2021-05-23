@@ -1,0 +1,23 @@
+// This is where your application styles could go.
+div[class*="Banner-module--grid"] {
+    background-color: #022b30;
+    height: 200vh;
+}
+
+.emphasize {
+    color: #9ef0f0;
+}
+
+div[class*="sensors"] {
+    display: flex;
+    justify-content: space-between;
+}
+
+div[class*="cards-container"] {
+    display: flex;
+}
+
+div[class*="sensor-card"] {
+    margin: 10px;
+}
+
