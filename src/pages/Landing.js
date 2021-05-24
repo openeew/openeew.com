@@ -15,7 +15,7 @@ const Landing = () => {
       <SensorInfo />
       <DashboardInfo />
       <NetworkInfo />
-      <div className="landing__footer"></div>
+      {/* <div className="landing__footer"></div> */}
     </div>
   );
 };
