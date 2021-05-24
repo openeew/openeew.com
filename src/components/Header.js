@@ -29,7 +29,7 @@ const _Header = () => {
 
       <HeaderGlobalBar>
         <HeaderGlobalAction
-          aria-label="Github"
+          aria-label="GitHub"
           target="_blank"
           href="https://github.com/openeew"
           tooltipAlignment="end"
