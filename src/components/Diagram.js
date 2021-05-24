@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import landscape from '../content/assets/landscape.jpg';
+import landscape from '../content/assets/landscape_grey.jpg';
 
 import AppContext from '../context/app';
 

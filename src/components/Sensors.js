@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Grid, Row, Column, Button } from 'carbon-components-react';
-import sensor3D from '../content/assets/sensor3d.jpg';
+import board from '../content/assets/openeew-node-board.jpg';
 import nodeBlue from '../content/assets/openeew-node-blue.jpg';
 import dashboard from '../content/assets/dash.jpg';
 import AppContext from '../context/app';
@@ -26,14 +26,14 @@ const SensorInfo = () => {
         <Column lg={{ span: 6, offset: 4 }}>
           <img
             className="sensor-image"
-            src={nodeBlue}
+            src={board}
             alt="A 3D printed sensor"
           ></img>
         </Column>
         <Column lg={6}>
           <img
             className="sensor-image"
-            src={sensor3D}
+            src={nodeBlue}
             alt="The OpenEEW Sensor"
           ></img>
         </Column>
