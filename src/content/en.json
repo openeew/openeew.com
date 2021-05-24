@@ -1,13 +1,16 @@
 {
   "title": "OpenEEW",
+  "informationTitle": "What is OpenEEW?",
+  "informationFirstPara": "We are a community building technology to detect the earlist signs of an earthquake and issue alerts. We provide people critical time to seek cover or exit buildings.",
+  "informationSecPara": " OpenEEW is a growing project. We need volunteers to own sensors, start networks in seismically vulnerable regions and contribute to the next generation of OpenEEW technology.",
   "sensor_title": "Low-cost sensors",
   "sensor_description": "Our sensors are low-cost, high-quality seismometers that can deploy with ease to monitor ground motion.",
-  "sensor_button_text": "Learn more",
+  "sensor_button_text": "Own a sensor",
   "dashboard_title": "Cloud-based detection system & dashboard",
   "dashboard_description": "Our dashboard reflects earthquake detections and allows sensor owners to manage their devices.",
-  "dashboard_button_text": "Visit the dashboard",
+  "dashboard_button_text": "Help build OpenEEW",
   "network_title": "Global network of seismically-active regions",
   "network_description": "Our system is most powerful in densely-populated areas where large earthquakes are likely to occur.",
-  "network_button_text": "Learn more",
+  "network_button_text": "Start a network",
   "banner_mission": "A low cost, open source, IoT-based earthquake early warning system."
 }
