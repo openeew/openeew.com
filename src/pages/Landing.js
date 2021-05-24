@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import { SensorInfo, DashboardInfo, NetworkInfo } from '../components/Sensors';
 import Banner from '../components/Banner';
 import Diagram from '../components/Diagram';
+import WhoWeAre from '../components/WhoWeAre';
 
 const Landing = () => {
   return (
@@ -10,9 +11,11 @@ const Landing = () => {
       <Header />
       <Banner />
       <Diagram />
+      <WhoWeAre />
       <SensorInfo />
       <DashboardInfo />
       <NetworkInfo />
+      <div className="landing__footer"></div>
     </div>
   );
 };

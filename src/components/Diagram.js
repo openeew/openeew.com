@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import diagram from '../content/assets/openeew-diagram2.jpg';
+import landscape from '../content/assets/landscape.jpg';
 
 import AppContext from '../context/app';
 
@@ -8,7 +8,9 @@ const Banner = () => {
 
   return (
     <div className="landing__diagram">
-      <img src={diagram} alt="" />
+      <div className="landing__diagramContainer">
+        <img src={landscape} alt="Earthquake animation" />
+      </div>
     </div>
   );
 };
