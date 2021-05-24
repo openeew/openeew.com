@@ -3,6 +3,7 @@ import { Grid, Row, Column, Button } from 'carbon-components-react';
 import board from '../content/assets/openeew-node-board.jpg';
 import nodeBlue from '../content/assets/openeew-node-blue.jpg';
 import dashboard from '../content/assets/dash.jpg';
+import hazardmap from '../content/assets/hazardmap.jpg';
 import AppContext from '../context/app';
 
 const SensorInfo = () => {
@@ -93,7 +94,7 @@ const NetworkInfo = () => {
         <Column lg={{ span: 11, offset: 4 }}>
           <img
             className="dashboard-image"
-            src={nodeBlue}
+            src={hazardmap}
             alt="A 3D printed sensor"
           ></img>
         </Column>

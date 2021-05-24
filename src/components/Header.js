@@ -21,9 +21,9 @@ const _Header = () => {
         {t('title')}
       </HeaderName>
 
-      <HeaderNavigation aria-label="IBM [Platform]">
+      <HeaderNavigation aria-label="Launch Dashboard">
         <HeaderMenuItem target="_blank" href="https://dashboard.openeew.com">
-          Dashboard
+          Launch Dashboard
         </HeaderMenuItem>
       </HeaderNavigation>
 
