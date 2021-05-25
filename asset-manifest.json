@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8455787d.chunk.css",
-    "main.js": "/static/js/main.5b8b85dd.chunk.js",
-    "main.js.map": "/static/js/main.5b8b85dd.chunk.js.map",
+    "main.js": "/static/js/main.22bb2b40.chunk.js",
+    "main.js.map": "/static/js/main.22bb2b40.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.134c0cd5.js",
     "runtime-main.js.map": "/static/js/runtime-main.134c0cd5.js.map",
     "static/js/2.48521eda.chunk.js": "/static/js/2.48521eda.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/2.48521eda.chunk.js.LICENSE.txt": "/static/js/2.48521eda.chunk.js.LICENSE.txt",
     "static/media/dash.2dc325dc.jpg": "/static/media/dash.2dc325dc.jpg",
     "static/media/hazardmap.8f0b59c5.jpg": "/static/media/hazardmap.8f0b59c5.jpg",
-    "static/media/landscape_grey.b6294fe5.jpg": "/static/media/landscape_grey.b6294fe5.jpg",
+    "static/media/landscape-darktype.9434b601.jpg": "/static/media/landscape-darktype.9434b601.jpg",
     "static/media/openeew-node-blue.13b4f9f2.jpg": "/static/media/openeew-node-blue.13b4f9f2.jpg",
     "static/media/openeew-node-board.82dcaac8.jpg": "/static/media/openeew-node-board.82dcaac8.jpg",
     "static/media/openeew_logo.1ef70781.svg": "/static/media/openeew_logo.1ef70781.svg"
@@ -23,6 +23,6 @@
     "static/js/runtime-main.134c0cd5.js",
     "static/js/2.48521eda.chunk.js",
     "static/css/main.8455787d.chunk.css",
-    "static/js/main.5b8b85dd.chunk.js"
+    "static/js/main.22bb2b40.chunk.js"
   ]
 }
