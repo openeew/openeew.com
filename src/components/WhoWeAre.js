@@ -16,22 +16,28 @@ const WhoWeAre = () => {
           <ButtonSet className="landing__buttonSet">
             <Button
               kind="primary"
-              target="_blank"
-              href="https://dashboard.openeew.com"
+              onClick={() => {
+                window.open(
+                  'https://github.com/openeew/openeew/wiki/Getting-Involved',
+                  '_blank'
+                );
+              }}
             >
               {t('whatopeneewButtonPrimary')}
             </Button>
             <Button
               kind="tertiary"
-              target="_blank"
-              href="https://openeew.slack.com/"
+              onClick={() => {
+                window.open('https://openeew.slack.com', '_blank');
+              }}
             >
               {t('whatopeneewButton2')}
             </Button>
             <Button
               kind="tertiary"
-              target="_blank"
-              href="https://github.com/openeew"
+              onClick={() => {
+                window.open('https://github.com/openeew', '_blank');
+              }}
             >
               {t('whatopeneewButton3')}
             </Button>

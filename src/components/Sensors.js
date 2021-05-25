@@ -20,7 +20,17 @@ const SensorInfo = () => {
           <h3>{t('sensor_description')}</h3>
         </Column>
         <Column lg={{ span: 3, offset: 1 }}>
-          <Button kind="secondary">{t('sensor_button_text')}</Button>
+          <Button
+            onClick={() => {
+              window.open(
+                'https://github.com/openeew/openeew/wiki/OpenEEW-Sensor',
+                '_blank'
+              );
+            }}
+            kind="secondary"
+          >
+            {t('sensor_button_text')}
+          </Button>
         </Column>
       </Row>
       <Row className="info-media">
@@ -57,7 +67,17 @@ const DashboardInfo = () => {
           <h3>{t('dashboard_description')}</h3>
         </Column>
         <Column lg={{ span: 3, offset: 1 }}>
-          <Button kind="secondary">{t('dashboard_button_text')}</Button>
+          <Button
+            onClick={() => {
+              window.open(
+                'https://github.com/openeew/openeew/wiki/Getting-Involved',
+                '_blank'
+              );
+            }}
+            kind="secondary"
+          >
+            {t('dashboard_button_text')}
+          </Button>
         </Column>
       </Row>
       <Row className="info-media">
@@ -87,7 +107,17 @@ const NetworkInfo = () => {
           <h3>{t('network_description')}</h3>
         </Column>
         <Column lg={{ span: 3, offset: 1 }}>
-          <Button kind="secondary">{t('network_button_text')}</Button>
+          <Button
+            onClick={() => {
+              window.open(
+                'https://github.com/openeew/openeew/wiki/Build-a-Network',
+                '_blank'
+              );
+            }}
+            kind="secondary"
+          >
+            {t('network_button_text')}
+          </Button>
         </Column>
       </Row>
       <Row className="info-media">
@@ -95,7 +125,7 @@ const NetworkInfo = () => {
           <img
             className="dashboard-image"
             src={hazardmap}
-            alt="A 3D printed sensor"
+            alt="Earthquake hazard map"
           ></img>
         </Column>
       </Row>
