@@ -1,11 +1,7 @@
-import React, { useContext } from 'react';
-import landscape from '../content/assets/landscape_grey.jpg';
-
-import AppContext from '../context/app';
+import React from 'react';
+import landscape from '../content/assets/landscape-darktype.jpg';
 
 const Banner = () => {
-  const { t } = useContext(AppContext);
-
   return (
     <div className="landing__diagram">
       <div className="landing__diagramContainer">
