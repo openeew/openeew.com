@@ -2,7 +2,7 @@
   "name": "openeew.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://openeew.github.io/openeew.com",
+  "homepage": "https://openeew.github.io",
   "dependencies": {
     "@carbon/grid": "^10.27.0",
     "@carbon/icons-react": "^10.32.0",
