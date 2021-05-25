@@ -28,7 +28,10 @@ const WhoWeAre = () => {
             <Button
               kind="tertiary"
               onClick={() => {
-                window.open('https://openeew.slack.com', '_blank');
+                window.open(
+                  'https://openeew.slack.com/join/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ#/shared-invite/email',
+                  '_blank'
+                );
               }}
             >
               {t('whatopeneewButton2')}

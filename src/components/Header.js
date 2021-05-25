@@ -39,7 +39,7 @@ const _Header = () => {
         <HeaderGlobalAction
           aria-label="Slack"
           target="_blank"
-          href="https://openeew.slack.com/"
+          href="https://openeew.slack.com/join/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ#/shared-invite/email"
           tooltipAlignment="end"
         >
           <LogoSlack20 />
