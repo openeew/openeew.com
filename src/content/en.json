@@ -16,6 +16,5 @@
   "network_description": "Our system is most valuable in densely-populated areas where large earthquakes are likely to occur.",
   "network_button_text": "Start a network",
   "banner_mission": "A low cost, open source, IoT-based earthquake early warning system.",
-  "footer_text": "OpenEEW is a Call for Code® with The Linux Foundation project",
   "copyright": "Copyright © 2020-2021 OpenEEW Project a Series of LF Projects, LLC."
 }

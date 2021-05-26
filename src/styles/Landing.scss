@@ -130,7 +130,7 @@
     margin-bottom: 3rem;
 
     .bx--btn--primary {
-      background-color: #24769C;
+      background-color: #24769c;
       max-width: 14rem;
     }
 
@@ -181,7 +181,24 @@
 }
 
 .landing__footer {
-  height: 200px;
   background-color: #1d1d1d;
   border-top: 1px solid white;
+  height: 200px;
+  text-align: center;
+
+  h3 {
+    @include carbon--type-style('productive-heading-03');
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin: 2rem 0;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  h4 {
+    @include carbon--type-style('productive-heading-02');
+    font-size: 0.9rem;
+  }
 }
