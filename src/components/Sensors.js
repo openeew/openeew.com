@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Grid, Row, Column, Button } from 'carbon-components-react';
 import board from '../content/assets/openeew-node-board.jpg';
-import nodeBlue from '../content/assets/openeew-node-blue.jpg';
+import nodeGray from '../content/assets/openeew-node-gray.jpg';
 import dashboard from '../content/assets/dash.jpg';
 import hazardmap from '../content/assets/hazardmap.jpg';
 import AppContext from '../context/app';
@@ -44,7 +44,7 @@ const SensorInfo = () => {
         <Column lg={6}>
           <img
             className="sensor-image"
-            src={nodeBlue}
+            src={nodeGray}
             alt="The OpenEEW Sensor"
           ></img>
         </Column>
