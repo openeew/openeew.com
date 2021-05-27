@@ -1,5 +1,6 @@
 {
   "title": "OpenEEW",
+  "banner_mission": "A low cost, open source, IoT-based earthquake early warning system.",
   "informationTitle": "What is OpenEEW?",
   "informationFirstPara": "We are building technology to detect the earliest signs of an earthquake and issue alerts. The technology could provide people critical time to seek cover or exit buildings before shaking arrives.",
   "informationSecPara": " OpenEEW is a growing project. We need volunteers to install sensors, start networks in seismically vulnerable regions, and contribute to the next generation of OpenEEW technology.",
@@ -15,5 +16,8 @@
   "network_title": "Global network of seismically-active regions",
   "network_description": "Our system is most valuable in densely-populated areas where large earthquakes are likely to occur.",
   "network_button_text": "Start a network",
-  "banner_mission": "A low cost, open source, IoT-based earthquake early warning system."
+  "footer": "OpenEEW is a ",
+  "footerLink": "Call for Code® with The Linux Foundation project",
+  "copyright": "Copyright © 2020-2021 OpenEEW Project a Series of LF Projects, LLC.",
+  "copyrightInfo": "For trademark usage guidelines, privacy and cookie policies, and other applicable policies, as well as terms and conditions governing this web site, please see www.lfprojects.org."
 }
