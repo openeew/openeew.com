@@ -5,7 +5,7 @@ const Banner = () => {
   return (
     <div className="landing__diagram">
       <div className="landing__diagramContainer">
-        <img src={landscape} alt="Earthquake animation" />
+        <img src={landscape} alt="Earthquake diagram" />
       </div>
     </div>
   );

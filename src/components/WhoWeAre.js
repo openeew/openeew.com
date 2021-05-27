@@ -10,7 +10,7 @@ const WhoWeAre = () => {
     <Grid className="landing__whoWeAre">
       <Row>
         <Column lg={9}>
-          <h2>{t('informationTitle')}</h2>
+          <h3>{t('informationTitle')}</h3>
           <p>{t('informationFirstPara')}</p>
           <p>{t('informationSecPara')}</p>
           <ButtonSet className="landing__buttonSet">
