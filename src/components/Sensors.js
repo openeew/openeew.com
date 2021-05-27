@@ -25,7 +25,8 @@ const SensorInfo = () => {
               onClick={() => {
                 window.open(
                   'https://github.com/openeew/openeew/wiki/OpenEEW-Sensor',
-                  '_blank'
+                  '_blank',
+                  'noopener'
                 );
               }}
               kind="secondary"
@@ -74,7 +75,8 @@ const DashboardInfo = () => {
               onClick={() => {
                 window.open(
                   'https://github.com/openeew/openeew/wiki/Getting-Involved',
-                  '_blank'
+                  '_blank',
+                  'noopener'
                 );
               }}
               kind="secondary"
@@ -117,7 +119,8 @@ const NetworkInfo = () => {
               onClick={() => {
                 window.open(
                   'https://github.com/openeew/openeew/wiki/Build-a-Network',
-                  '_blank'
+                  '_blank',
+                  'noopener'
                 );
               }}
               kind="secondary"

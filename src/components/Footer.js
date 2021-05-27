@@ -10,7 +10,7 @@ const Footer = (props) => {
         {t('footer')}
         <a
           href="https://www.linuxfoundation.org/projects/call-for-code/"
-          rel="noreferrer"
+          rel="noopener noreferrer"
           target="_blank"
         >
           {t('footerLink')}

@@ -20,7 +20,8 @@ const WhoWeAre = () => {
                 onClick={() => {
                   window.open(
                     'https://github.com/openeew/openeew/wiki/Getting-Involved',
-                    '_blank'
+                    '_blank',
+                    'noopener'
                   );
                 }}
               >
@@ -31,7 +32,8 @@ const WhoWeAre = () => {
                 onClick={() => {
                   window.open(
                     'https://openeew.slack.com/join/shared_invite/zt-cibhc0za-XKReMPobi2DsrPusORJZVQ#/shared-invite/email',
-                    '_blank'
+                    '_blank',
+                    'noopener'
                   );
                 }}
               >
@@ -40,7 +42,11 @@ const WhoWeAre = () => {
               <Button
                 kind="tertiary"
                 onClick={() => {
-                  window.open('https://github.com/openeew', '_blank');
+                  window.open(
+                    'https://github.com/openeew',
+                    '_blank',
+                    'noopener'
+                  );
                 }}
               >
                 {t('whatopeneewButton3')}
