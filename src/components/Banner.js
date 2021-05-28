@@ -7,7 +7,7 @@ const Banner = () => {
   const { t } = useContext(AppContext);
 
   return (
-    <div className="landing__banner">
+    <section className="landing__banner">
       <div className="landing__openEEW">
         <div className="landing__openEEWWrapper">
           <img src={openeew_logo} alt="OpenEEW Logo" />
@@ -15,9 +15,9 @@ const Banner = () => {
         </div>
       </div>
       <div className="landing__mission">
-        <h1>{t('banner_mission')}</h1>
+        <h2>{t('bannerMission')}</h2>
       </div>
-    </div>
+    </section>
   );
 };
 

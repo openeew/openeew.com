@@ -77,7 +77,7 @@
       padding: 1.5rem;
     }
 
-    h1 {
+    h2 {
       @include carbon--type-style('productive-heading-07');
       border-left: 2px solid #55a4c9;
       padding-left: 2rem;
@@ -105,7 +105,7 @@
 }
 
 .landing__whoWeAre {
-  h2 {
+  h3 {
     @include carbon--type-style('expressive-heading-05');
     font-size: 2.5rem;
     margin: 5rem 0 3.5rem 0;
@@ -130,7 +130,7 @@
     margin-bottom: 3rem;
 
     .bx--btn--primary {
-      background-color: #24769C;
+      background-color: #24769c;
       max-width: 14rem;
     }
 
@@ -180,8 +180,31 @@
   width: 100%;
 }
 
-.landing__footer {
-  height: 200px;
+footer {
   background-color: #1d1d1d;
   border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  * {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  h4 {
+    margin: 2rem 1rem;
+  }
+
+  p {
+    margin: 0rem 1rem;
+    line-height: 1.1;
+  }
+
+  small {
+    margin: 1rem 1rem 3rem 1rem;
+  }
 }
