@@ -15,7 +15,7 @@ const Banner = () => {
         </div>
       </div>
       <div className="landing__mission">
-        <h2>{t('banner_mission')}</h2>
+        <h2>{t('bannerMission')}</h2>
       </div>
     </section>
   );

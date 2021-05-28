@@ -15,10 +15,10 @@ const SensorInfo = () => {
         <Row className="info-text">
           {/* TODO: Get text from json. */}
           <Column lg={4}>
-            <h4>{t('sensor_title')}</h4>
+            <h4>{t('sensorTitle')}</h4>
           </Column>
           <Column lg={8}>
-            <h3>{t('sensor_description')}</h3>
+            <h3>{t('sensorDescription')}</h3>
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
             <Button
@@ -31,7 +31,7 @@ const SensorInfo = () => {
               }}
               kind="secondary"
             >
-              {t('sensor_button_text')}
+              {t('sensorButtonText')}
             </Button>
           </Column>
         </Row>
@@ -65,10 +65,10 @@ const DashboardInfo = () => {
         <Row className="info-text">
           {/* TODO: Get text from json. */}
           <Column lg={4}>
-            <h4>{t('dashboard_title')}</h4>
+            <h4>{t('dashboardTitle')}</h4>
           </Column>
           <Column lg={8}>
-            <h3>{t('dashboard_description')}</h3>
+            <h3>{t('dashboardDescription')}</h3>
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
             <Button
@@ -81,7 +81,7 @@ const DashboardInfo = () => {
               }}
               kind="secondary"
             >
-              {t('dashboard_button_text')}
+              {t('dashboardButtonText')}
             </Button>
           </Column>
         </Row>
@@ -109,10 +109,10 @@ const NetworkInfo = () => {
         <Row className="info-text">
           {/* TODO: Get text from json. */}
           <Column lg={4}>
-            <h4>{t('network_title')}</h4>
+            <h4>{t('networkTitle')}</h4>
           </Column>
           <Column lg={8}>
-            <h3>{t('network_description')}</h3>
+            <h3>{t('networkDescription')}</h3>
           </Column>
           <Column lg={{ span: 3, offset: 1 }}>
             <Button
@@ -125,7 +125,7 @@ const NetworkInfo = () => {
               }}
               kind="secondary"
             >
-              {t('network_button_text')}
+              {t('networkButtonText')}
             </Button>
           </Column>
         </Row>
