@@ -15,6 +15,14 @@ const Footer = (props) => {
         >
           {t('footerLink')}
         </a>
+        {t('footer2')}
+        <a
+          href="https://grillo.io"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          {t('footerLink2')}
+        </a>
       </h4>
       <p>{t('copyright')}</p>
       <small>{t('copyrightInfo')}</small>

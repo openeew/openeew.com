@@ -18,6 +18,8 @@
   "networkButtonText": "Start a network",
   "footer": "OpenEEW is a ",
   "footerLink": "Call for Code® with The Linux Foundation project",
+  "footer2":  " founded by ",
+  "footerLink2": " Grillo",
   "copyright": "Copyright © 2020-2021 OpenEEW Project a Series of LF Projects, LLC.",
   "copyrightInfo": "For trademark usage guidelines, privacy and cookie policies, and other applicable policies, as well as terms and conditions governing this web site, please see www.lfprojects.org."
 }
